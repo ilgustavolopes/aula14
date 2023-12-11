@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    width:98,5%;
+}
+/*div que da espaço a tudo*/
+.container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:1000px;
+}
+/*cabeçalho*/
+img#icons{
+    width:45px;
+    height:45px;
+}
+.cabecalho{
+    border-bottom: solid 5px rgb(195, 131, 12);
+    background:goldenrod;
+    padding:25px;
+    width:98,5%;
+    color:white;
+    font-size: 35px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+/*menudeseries*/
+/*
+ul#series{
+    list-style-type:none;
+}
+li a, .menudeseries{
+    display: inline-block;
+    text-align:center;
+    padding:5px;
+    text-decoration: none;
+    color:white;
+}
+li .series{
+    display: inline-block;
+}
+.series-conteudo{
+    display: none;
+    position:absolute;
+    background-color:orange;
+}
+.series-conteudo a{
+    color:white;
+    padding:22px;
+    text-decoration: none;
+    display:block;
+    text-align:left;
+}
+.series-conteudo a:hover{
+    background-color:rgb(248, 190, 81);
+}
+.series:hover .series-conteudo{ 
+    display:block;
+}
+*/
+select{
+    background:goldenrod;
+    border:none;
+    text-decoration:none;
+    color:white;
+    font-size: 35px;
+}
+/*barra de pesquisa*/
+#busca{
+    background:white;
+    color:black;
+    border-radius: 15px;
+    padding:10px;
+    border:none;
+    width:300px;
+}
+/*menu*/
+.menubtn{
+    background:goldenrod;
+    border:none;
+    padding:5px; 
+    font-size: 16px;  
+}
+.menu{
+    position:relative;
+    display:inline-block;
+}
+.menu-content{
+    display:none;
+    background-color:orange;
+    position:absolute;
+    z-index: 1;
+    right:-18px;
+    left:-250px;
+    text-align:start;
+}
+.menu-content a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding:20px;
+}
+.menu-content a:hover{
+    background:rgb(241, 197, 88);
+}
+.menu:hover .menu-content{
+    display:block;
+}
+/*produtos*/
+h2{
+    margin-top:50px;
+    margin-left:25px;
+    width:98,5%;
+}
+.produtos{
+  display:flex;
+  justify-content:flex-start;
+  width:98,5%;
+  height:100%;
+  margin-left:25px;
+  gap:5%;
+}
+#imgpt{
+    margin-top:15px;
+    height:150px;
+    width:170px;
+    padding:30px;
+    border:none;
+    background:rgba(128, 128, 128, 0.666);
+}
+p#preços{
+    margin-left: -150px;
+    margin-top:15px;
+    width:100%;
+    color:greenyellow;
+}
+p#segundopreço{
+    margin-left: -150px;
+    margin-top:25px;
+    width:100%;
+    color:red;
+}
+
+
+

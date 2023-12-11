@@ -1,0 +1,79 @@
+body{
+    background:darkblue;
+}
+/*div que deixa divs com espaço*/
+.tudo{
+   display:flex;
+   flex-direction: column;
+   gap:15px;
+}
+/*cabeçalho*/
+.header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    border: none;
+    background:gray;
+    color:white;
+}
+/*navigation*/
+.navigation{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    border: none;
+    background:deeppink;
+    color:white;
+}
+/*container em volta do conteudo*/
+.container{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap:15px;
+    width:100%;
+}
+/*conteudo*/
+.maincontent{
+    display:flex;
+    flex-direction: column;
+    border: none;
+    background:lawngreen;
+    padding:5px;
+    height:400px;
+    width:100%;
+    color:white;
+}
+h1#mc{
+   display:flex;
+   justify-content:center;
+}
+h1#at{
+    display:flex;
+    justify-content: center;
+    border: none;
+    background:blue;
+    padding:35px;
+    height:100px;
+    color:white;
+}
+/*menu*/
+.sidebar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: cadetblue;
+    color:white;
+    width:300px;
+    height: 410px;
+}
+/*rodape*/
+.footer{
+    display:flex;
+    justify-content: center;
+    border: none;
+    background: orangered;
+    color:white;
+    width:100%;
+}
